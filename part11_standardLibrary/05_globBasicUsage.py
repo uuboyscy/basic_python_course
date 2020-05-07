@@ -17,4 +17,3 @@ print('\n特定路徑：')
 some_path = glob.glob('../part1[2-4]*/0[1-3]*')
 for p in some_path:
     print(p)
-    
