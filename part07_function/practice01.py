@@ -1,3 +1,16 @@
+"""
+Define a function poker(player) to shuffle poker cards.
+Where:
+    Variable 'player' is of int.
+    The function return a dict where the schema be like:
+        {
+            "player1": ["Spade1", "Diamond13", ...],
+            "player2": ["Heart6", "Club4", ...],
+            ...
+            ...
+        }
+"""
+
 import random
 
 def poker(player):
